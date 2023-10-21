@@ -7,6 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { CardComponent } from './pages/card/card.component';
 import { CardLabelComponent } from './pages/card/card-label/card-label.component';
+import { CardPriceComponent } from './pages/card/card-price/card-price.component';
+import { CardImageComponent } from './pages/card/card-image/card-image.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CardLabelComponent } from './pages/card/card-label/card-label.component
     HomeComponent,
     MenuComponent,
     CardComponent,
-    CardLabelComponent
+    CardLabelComponent,
+    CardPriceComponent,
+    CardImageComponent
   ],
   imports: [
     BrowserModule,

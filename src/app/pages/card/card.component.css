@@ -1,0 +1,23 @@
+.content {
+    width: 70%;
+    padding: 100px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.image {
+    position: relative;
+    margin-left: 100px;
+}
+
+.label {
+    position: absolute;
+    top: 450px;
+    left: 290px;
+    width: 100px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
